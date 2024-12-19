@@ -36,6 +36,10 @@ public class Book {
         return author;
     }
 
+    @Override
+    public String toString() {
+        return this.title;
+    }
     
 
     // Getters and Setters omitted for brevity
